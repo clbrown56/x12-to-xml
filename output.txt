@@ -1,0 +1,1270 @@
+                                                                 ,---,                                                  ,--,    
+                                                              ,`--.' |                                         ____  ,---.'|    
+  ,----..                                                     |   :  :                  ,--,     ,--,        ,'  , `.|   | :    
+ /   /   \                                                    |   |  '                  |'. \   / .`|     ,-+-,.' - |:   : |    
+|   :     :  ,---.        ,---,      ,---,    ,---.    __  ,-.'   :  |                  ; \ `\ /' / ;  ,-+-. ;   , |||   ' :    
+.   |  ;. / '   ,'\   ,-+-. /  | ,-+-. /  |  '   ,'\ ,' ,'/ /|;   |.'.--.--.            `. \  /  / .' ,--.'|'   |  ;|;   ; '    
+.   ; /--` /   /   | ,--.'|'   |,--.'|'   | /   /   |'  | |' |'---' /  /    '            \  \/  / ./ |   |  ,', |  ':'   | |__  
+;   | ;   .   ; ,. :|   |  ,"' |   |  ,"' |.   ; ,. :|  |   ,'     |  :  /`./             \  \.'  /  |   | /  | |  |||   | :.'| 
+|   : |   '   | |: :|   | /  | |   | /  | |'   | |: :'  :  /       |  :  ;_                \  ;  ;   '   | :  | :  |,'   :    ; 
+.   | '___'   | .; :|   | |  | |   | |  | |'   | .; :|  | '         \  \    `.            / \  \  \  ;   . |  ; |--' |   |  ./  
+'   ; : .'|   :    ||   | |  |/|   | |  |/ |   :    |;  : |          `----.   \          ;  /\  \  \ |   : |  | ,    ;   : ;    
+'   | '/  :\   \  / |   | |--' |   | |--'   \   \  / |  , ;         /  /`--'  /        ./__;  \  ;  \|   : '  |/     |   ,/     
+|   :    /  `----'  |   |/     |   |/        `----'   ---'         '--'.     /         |   : / \  \  ;   | |`-'      '---'      
+\   \ .'           '---'      '---'                                 `--'---'          ;   |/   \  ' |   ;/                     
+`---`                                                                                `---'     `--`'---'                      
+<ConnorData>
+	<Interchange AckRequested="1" AuthorizationQual="00" ControlNumber="697773230" ElementDelimeter = "^">
+		<SenderID Qualifier="01">987654321</SenderID>
+		<RecieverID Qualifier="ZZ">123456789</RecieverID>
+		<Group GroupType = "HC" ApplSender = "CLEARINGHOUSE" ApplSender = "123456789" Date = "20180508">
+			<Transaction ControlNumber = "212950697" DocType = "837" SegIdx = "1" Version = "005010X222A1">
+				<ST segIdx = "1">
+					<ST01>837</ST01>
+					<ST02>000000001</ST02>
+					<ST03>005010X222A1</ST03>
+				</ST>
+				<BHT segIdx = "2">
+					<BHT01>0019</BHT01>
+					<BHT02>00</BHT02>
+					<BHT03>7349063984</BHT03>
+					<BHT04>20180508</BHT04>
+					<BHT05>0833</BHT05>
+					<BHT06>CH</BHT06>
+				</BHT>
+				<Loop1000A>
+					<NM1 segIdx = "3">
+						<NM101>41</NM101>
+						<NM102>2</NM102>
+						<NM103>CLEARINGHOUSE LLC</NM103>
+						<NM104></NM104>
+						<NM105></NM105>
+						<NM106></NM106>
+						<NM107></NM107>
+						<NM108>46</NM108>
+						<NM109>987654321</NM109>
+					</NM1>
+					<PER segIdx = "4">
+						<PER01>IC</PER01>
+						<PER02>CLEARINGHOUSE CLIENT SERVICES</PER02>
+						<PER03>TE</PER03>
+						<PER04>8005551212</PER04>
+						<PER05>FX</PER05>
+						<PER06>8005551212</PER06>
+					</PER>
+				</Loop1000A>
+				<Loop1000B>
+					<NM1 segIdx = "5">
+						<NM101>40</NM101>
+						<NM102>2</NM102>
+						<NM103>123456789</NM103>
+						<NM104></NM104>
+						<NM105></NM105>
+						<NM106></NM106>
+						<NM107></NM107>
+						<NM108>46</NM108>
+						<NM109>CHPWA</NM109>
+					</NM1>
+				</Loop1000B>
+				<Loop2000A>
+					<HL segIdx = "6">
+						<HL01>1</HL01>
+						<HL02></HL02>
+						<HL03>20</HL03>
+						<HL04>1</HL04>
+					</HL>
+					<Loop2010A>
+						<Loop2010AA>
+							<NM1 segIdx = "7">
+								<NM101>85</NM101>
+								<NM102>2</NM102>
+								<NM103>BH CLINIC OF VANCOUVER</NM103>
+								<NM104></NM104>
+								<NM105></NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>XX</NM108>
+								<NM109>1122334455</NM109>
+							</NM1>
+							<N3 segIdx = "8">
+								<N301>12345 MAIN ST</N301>
+							</N3>
+							<N4 segIdx = "9">
+								<N401>VANCOUVER</N401>
+								<N402>WA</N402>
+								<N403>98662</N403>
+							</N4>
+							<REF segIdx = "10">
+								<REF01>EI</REF01>
+								<REF02>720000000</REF02>
+							</REF>
+							<PER segIdx = "11">
+								<PER01>IC</PER01>
+								<PER02>CONTACT</PER02>
+								<PER03>TE</PER03>
+								<PER04>9185551212</PER04>
+							</PER>
+						</Loop2010AA>
+						<Loop2010AB>
+							<NM1 segIdx = "12">
+								<NM101>87</NM101>
+								<NM102>2</NM102>
+							</NM1>
+							<N3 segIdx = "13">
+								<N301>PO BOX 1234</N301>
+							</N3>
+							<N4 segIdx = "14">
+								<N401>VANCOUVER</N401>
+								<N402>WA</N402>
+								<N403>986681234</N403>
+							</N4>
+						</Loop2010AB>
+					</Loop2010A>
+				</Loop2000A>
+				<Loop2000B>
+					<HL segIdx = "15">
+						<HL01>2</HL01>
+						<HL02>1</HL02>
+						<HL03>22</HL03>
+						<HL04>0</HL04>
+					</HL>
+					<SBR segIdx = "16">
+						<SBR01>P</SBR01>
+						<SBR02>18</SBR02>
+						<SBR03></SBR03>
+						<SBR04>COMMUNITY HLTH PLAN OF WASH</SBR04>
+						<SBR05></SBR05>
+						<SBR06></SBR06>
+						<SBR07></SBR07>
+						<SBR08></SBR08>
+						<SBR09>CI</SBR09>
+					</SBR>
+					<Loop2010B>
+						<Loop2010BA>
+							<NM1 segIdx = "17">
+								<NM101>IL</NM101>
+								<NM102>1</NM102>
+								<NM103>SUBSCRIBER</NM103>
+								<NM104>JOHN</NM104>
+								<NM105>J</NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>MI</NM108>
+								<NM109>987321</NM109>
+							</NM1>
+							<N3 segIdx = "18">
+								<N301>987 65TH PL</N301>
+							</N3>
+							<N4 segIdx = "19">
+								<N401>VANCOUVER</N401>
+								<N402>WA</N402>
+								<N403>986640001</N403>
+							</N4>
+							<DMG segIdx = "20">
+								<DMG01>D8</DMG01>
+								<DMG02>19881225</DMG02>
+								<DMG03>M</DMG03>
+							</DMG>
+						</Loop2010BA>
+						<Loop2010BB>
+							<NM1 segIdx = "21">
+								<NM101>PR</NM101>
+								<NM102>2</NM102>
+								<NM103>COMMUNITY HEALTH PLAN OF WASHINGTON</NM103>
+								<NM104></NM104>
+								<NM105></NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>PI</NM108>
+								<NM109>CHPWA</NM109>
+							</NM1>
+						</Loop2010BB>
+					</Loop2010B>
+				</Loop2000B>
+				<Loop2300A>
+					<CLM segIdx = "22">
+						<CLM01>1805080AV3648339</CLM01>
+						<CLM02>20</CLM02>
+						<CLM03></CLM03>
+						<CLM04></CLM04>
+						<CLM05>57:B:1</CLM05>
+						<CLM06>Y</CLM06>
+						<CLM07>A</CLM07>
+						<CLM08>Y</CLM08>
+						<CLM09>Y</CLM09>
+					</CLM>
+					<REF segIdx = "23">
+						<REF01>D9</REF01>
+						<REF02>7349065509</REF02>
+					</REF>
+					<HI segIdx = "24">
+						<HI01>ABK:F1120</HI01>
+					</HI>
+					<Loop2310A>
+						<Loop2310AA>
+							<NM1 segIdx = "25">
+								<NM101>82</NM101>
+								<NM102>1</NM102>
+								<NM103>PROVIDER</NM103>
+								<NM104>JAMES</NM104>
+								<NM105></NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>XX</NM108>
+								<NM109>1112223338</NM109>
+							</NM1>
+							<PRV segIdx = "26">
+								<PRV01>PE</PRV01>
+								<PRV02>PXC</PRV02>
+								<PRV03>261QR0405X</PRV03>
+							</PRV>
+						</Loop2310AA>
+						<Loop2310AB>
+							<NM1 segIdx = "27">
+								<NM101>77</NM101>
+								<NM102>2</NM102>
+								<NM103>BH CLINIC OF VANCOUVER</NM103>
+								<NM104></NM104>
+								<NM105></NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>XX</NM108>
+								<NM109>1122334455</NM109>
+							</NM1>
+							<N3 segIdx = "28">
+								<N301>12345 MAIN ST SUITE A1</N301>
+							</N3>
+							<N4 segIdx = "29">
+								<N401>VANCOUVER</N401>
+								<N402>WA</N402>
+								<N403>98662</N403>
+							</N4>
+						</Loop2310AB>
+					</Loop2310A>
+				</Loop2300A>
+				<Loop2400A>
+					<LX segIdx = "30">
+						<LX01>1</LX01>
+					</LX>
+					<SV1 segIdx = "31">
+						<SV101>HC:H0003</SV101>
+						<SV102>20</SV102>
+						<SV103>UN</SV103>
+						<SV104>1</SV104>
+						<SV105></SV105>
+						<SV106></SV106>
+						<SV107>1</SV107>
+					</SV1>
+					<DTP segIdx = "32">
+						<DTP01>472</DTP01>
+						<DTP02>D8</DTP02>
+						<DTP03>20180428</DTP03>
+					</DTP>
+					<REF segIdx = "33">
+						<REF01>6R</REF01>
+						<REF02>142671</REF02>
+					</REF>
+				</Loop2400A>
+			</Transaction>
+			<Transaction ControlNumber = "212950697" DocType = "837" SegIdx = "34" Version = "005010X222A1">
+				<ST segIdx = "34">
+					<ST01>837</ST01>
+					<ST02>000000002</ST02>
+					<ST03>005010X222A1</ST03>
+				</ST>
+				<BHT segIdx = "35">
+					<BHT01>0019</BHT01>
+					<BHT02>00</BHT02>
+					<BHT03>7349063984</BHT03>
+					<BHT04>20180508</BHT04>
+					<BHT05>0833</BHT05>
+					<BHT06>CH</BHT06>
+				</BHT>
+				<Loop1000A>
+					<NM1 segIdx = "36">
+						<NM101>41</NM101>
+						<NM102>2</NM102>
+						<NM103>CLEARINGHOUSE LLC</NM103>
+						<NM104></NM104>
+						<NM105></NM105>
+						<NM106></NM106>
+						<NM107></NM107>
+						<NM108>46</NM108>
+						<NM109>987654321</NM109>
+					</NM1>
+					<PER segIdx = "37">
+						<PER01>IC</PER01>
+						<PER02>CLEARINGHOUSE CLIENT SERVICES</PER02>
+						<PER03>TE</PER03>
+						<PER04>8005551212</PER04>
+						<PER05>FX</PER05>
+						<PER06>8005551212</PER06>
+					</PER>
+				</Loop1000A>
+				<Loop1000B>
+					<NM1 segIdx = "38">
+						<NM101>40</NM101>
+						<NM102>2</NM102>
+						<NM103>123456789</NM103>
+						<NM104></NM104>
+						<NM105></NM105>
+						<NM106></NM106>
+						<NM107></NM107>
+						<NM108>46</NM108>
+						<NM109>CHPWA</NM109>
+					</NM1>
+				</Loop1000B>
+				<Loop2000A>
+					<HL segIdx = "39">
+						<HL01>63</HL01>
+						<HL02></HL02>
+						<HL03>20</HL03>
+						<HL04>1</HL04>
+					</HL>
+					<Loop2010A>
+						<Loop2010AA>
+							<NM1 segIdx = "40">
+								<NM101>85</NM101>
+								<NM102>2</NM102>
+								<NM103>BH CLINIC OF VANCOUVER</NM103>
+								<NM104></NM104>
+								<NM105></NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>XX</NM108>
+								<NM109>1122334455</NM109>
+							</NM1>
+							<N3 segIdx = "41">
+								<N301>12345 MAIN ST</N301>
+							</N3>
+							<N4 segIdx = "42">
+								<N401>VANCOUVER</N401>
+								<N402>WA</N402>
+								<N403>98662</N403>
+							</N4>
+							<REF segIdx = "43">
+								<REF01>EI</REF01>
+								<REF02>720000000</REF02>
+							</REF>
+							<PER segIdx = "44">
+								<PER01>IC</PER01>
+								<PER02>CONTACT</PER02>
+								<PER03>TE</PER03>
+								<PER04>9185551212</PER04>
+							</PER>
+						</Loop2010AA>
+						<Loop2010AB>
+							<NM1 segIdx = "45">
+								<NM101>87</NM101>
+								<NM102>2</NM102>
+							</NM1>
+							<N3 segIdx = "46">
+								<N301>PO BOX 1234</N301>
+							</N3>
+							<N4 segIdx = "47">
+								<N401>VANCOUVER</N401>
+								<N402>WA</N402>
+								<N403>986681234</N403>
+							</N4>
+						</Loop2010AB>
+					</Loop2010A>
+				</Loop2000A>
+				<Loop2000B>
+					<HL segIdx = "48">
+						<HL01>64</HL01>
+						<HL02>63</HL02>
+						<HL03>22</HL03>
+						<HL04>0</HL04>
+					</HL>
+					<SBR segIdx = "49">
+						<SBR01>P</SBR01>
+						<SBR02>18</SBR02>
+						<SBR03></SBR03>
+						<SBR04>COMMUNITY HLTH PLAN OF WASH</SBR04>
+						<SBR05></SBR05>
+						<SBR06></SBR06>
+						<SBR07></SBR07>
+						<SBR08></SBR08>
+						<SBR09>CI</SBR09>
+					</SBR>
+					<Loop2010B>
+						<Loop2010BA>
+							<NM1 segIdx = "50">
+								<NM101>IL</NM101>
+								<NM102>1</NM102>
+								<NM103>PATIENT</NM103>
+								<NM104>SUSAN</NM104>
+								<NM105>E</NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>MI</NM108>
+								<NM109>765123</NM109>
+							</NM1>
+							<N3 segIdx = "51">
+								<N301>765 43RD ST</N301>
+							</N3>
+							<N4 segIdx = "52">
+								<N401>VANCOUVER</N401>
+								<N402>WA</N402>
+								<N403>986640002</N403>
+							</N4>
+							<DMG segIdx = "53">
+								<DMG01>D8</DMG01>
+								<DMG02>19881031</DMG02>
+								<DMG03>F</DMG03>
+							</DMG>
+						</Loop2010BA>
+						<Loop2010BB>
+							<NM1 segIdx = "54">
+								<NM101>PR</NM101>
+								<NM102>2</NM102>
+								<NM103>COMMUNITY HEALTH PLAN OF WASHINGTON</NM103>
+								<NM104></NM104>
+								<NM105></NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>PI</NM108>
+								<NM109>CHPWA</NM109>
+							</NM1>
+						</Loop2010BB>
+					</Loop2010B>
+				</Loop2000B>
+				<Loop2300A>
+					<CLM segIdx = "55">
+						<CLM01>1805080AV3648347</CLM01>
+						<CLM02>50.1</CLM02>
+						<CLM03></CLM03>
+						<CLM04></CLM04>
+						<CLM05>57:B:1</CLM05>
+						<CLM06>Y</CLM06>
+						<CLM07>A</CLM07>
+						<CLM08>Y</CLM08>
+						<CLM09>Y</CLM09>
+					</CLM>
+					<REF segIdx = "56">
+						<REF01>D9</REF01>
+						<REF02>7349065730</REF02>
+					</REF>
+					<HI segIdx = "57">
+						<HI01>ABK:F1520</HI01>
+						<HI02>ABF:F1220</HI02>
+					</HI>
+					<Loop2310A>
+						<Loop2310AA>
+							<NM1 segIdx = "58">
+								<NM101>82</NM101>
+								<NM102>1</NM102>
+								<NM103>PROVIDER</NM103>
+								<NM104>SUSAN</NM104>
+								<NM105></NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>XX</NM108>
+								<NM109>1112223346</NM109>
+							</NM1>
+							<PRV segIdx = "59">
+								<PRV01>PE</PRV01>
+								<PRV02>PXC</PRV02>
+								<PRV03>261QR0405X</PRV03>
+							</PRV>
+						</Loop2310AA>
+						<Loop2310AB>
+							<NM1 segIdx = "60">
+								<NM101>77</NM101>
+								<NM102>2</NM102>
+								<NM103>BH CLINIC OF VANCOUVER</NM103>
+								<NM104></NM104>
+								<NM105></NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>XX</NM108>
+								<NM109>1122334455</NM109>
+							</NM1>
+							<N3 segIdx = "61">
+								<N301>12345 MAIN ST SUITE A1</N301>
+							</N3>
+							<N4 segIdx = "62">
+								<N401>VANCOUVER</N401>
+								<N402>WA</N402>
+								<N403>98662</N403>
+							</N4>
+						</Loop2310AB>
+					</Loop2310A>
+				</Loop2300A>
+				<Loop2400A>
+					<LX segIdx = "63">
+						<LX01>1</LX01>
+					</LX>
+					<SV1 segIdx = "64">
+						<SV101>HC:96153:HF</SV101>
+						<SV102>50.1</SV102>
+						<SV103>UN</SV103>
+						<SV104>6</SV104>
+						<SV105></SV105>
+						<SV106></SV106>
+						<SV107>1:2</SV107>
+					</SV1>
+					<DTP segIdx = "65">
+						<DTP01>472</DTP01>
+						<DTP02>D8</DTP02>
+						<DTP03>20180426</DTP03>
+					</DTP>
+					<REF segIdx = "66">
+						<REF01>6R</REF01>
+						<REF02>143792</REF02>
+					</REF>
+				</Loop2400A>
+			</Transaction>
+			<Transaction ControlNumber = "212950697" DocType = "837" SegIdx = "67" Version = "005010X222A1">
+				<ST segIdx = "67">
+					<ST01>837</ST01>
+					<ST02>000000003</ST02>
+					<ST03>005010X222A1</ST03>
+				</ST>
+				<BHT segIdx = "68">
+					<BHT01>0019</BHT01>
+					<BHT02>00</BHT02>
+					<BHT03>7349063984</BHT03>
+					<BHT04>20180508</BHT04>
+					<BHT05>0833</BHT05>
+					<BHT06>CH</BHT06>
+				</BHT>
+				<Loop1000A>
+					<NM1 segIdx = "69">
+						<NM101>41</NM101>
+						<NM102>2</NM102>
+						<NM103>CLEARINGHOUSE LLC</NM103>
+						<NM104></NM104>
+						<NM105></NM105>
+						<NM106></NM106>
+						<NM107></NM107>
+						<NM108>46</NM108>
+						<NM109>987654321</NM109>
+					</NM1>
+					<PER segIdx = "70">
+						<PER01>IC</PER01>
+						<PER02>CLEARINGHOUSE CLIENT SERVICES</PER02>
+						<PER03>TE</PER03>
+						<PER04>8005551212</PER04>
+						<PER05>FX</PER05>
+						<PER06>8005551212</PER06>
+					</PER>
+				</Loop1000A>
+				<Loop1000B>
+					<NM1 segIdx = "71">
+						<NM101>40</NM101>
+						<NM102>2</NM102>
+						<NM103>123456789</NM103>
+						<NM104></NM104>
+						<NM105></NM105>
+						<NM106></NM106>
+						<NM107></NM107>
+						<NM108>46</NM108>
+						<NM109>CHPWA</NM109>
+					</NM1>
+				</Loop1000B>
+				<Loop2000A>
+					<HL segIdx = "72">
+						<HL01>49</HL01>
+						<HL02></HL02>
+						<HL03>20</HL03>
+						<HL04>1</HL04>
+					</HL>
+					<Loop2010A>
+						<Loop2010AA>
+							<NM1 segIdx = "73">
+								<NM101>85</NM101>
+								<NM102>2</NM102>
+								<NM103>BH CLINIC OF VANCOUVER</NM103>
+								<NM104></NM104>
+								<NM105></NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>XX</NM108>
+								<NM109>1122334455</NM109>
+							</NM1>
+							<N3 segIdx = "74">
+								<N301>12345 MAIN ST</N301>
+							</N3>
+							<N4 segIdx = "75">
+								<N401>VANCOUVER</N401>
+								<N402>WA</N402>
+								<N403>98662</N403>
+							</N4>
+							<REF segIdx = "76">
+								<REF01>EI</REF01>
+								<REF02>720000000</REF02>
+							</REF>
+							<PER segIdx = "77">
+								<PER01>IC</PER01>
+								<PER02>CONTACT</PER02>
+								<PER03>TE</PER03>
+								<PER04>9185551212</PER04>
+							</PER>
+						</Loop2010AA>
+						<Loop2010AB>
+							<NM1 segIdx = "78">
+								<NM101>87</NM101>
+								<NM102>2</NM102>
+							</NM1>
+							<N3 segIdx = "79">
+								<N301>PO BOX 1234</N301>
+							</N3>
+							<N4 segIdx = "80">
+								<N401>VANCOUVER</N401>
+								<N402>WA</N402>
+								<N403>986681234</N403>
+							</N4>
+						</Loop2010AB>
+					</Loop2010A>
+				</Loop2000A>
+				<Loop2000B>
+					<HL segIdx = "81">
+						<HL01>50</HL01>
+						<HL02>49</HL02>
+						<HL03>22</HL03>
+						<HL04>0</HL04>
+					</HL>
+					<SBR segIdx = "82">
+						<SBR01>P</SBR01>
+						<SBR02>18</SBR02>
+						<SBR03></SBR03>
+						<SBR04>COMMUNITY HLTH PLAN OF WASH</SBR04>
+						<SBR05></SBR05>
+						<SBR06></SBR06>
+						<SBR07></SBR07>
+						<SBR08></SBR08>
+						<SBR09>CI</SBR09>
+					</SBR>
+					<Loop2010B>
+						<Loop2010BA>
+							<NM1 segIdx = "83">
+								<NM101>IL</NM101>
+								<NM102>1</NM102>
+								<NM103>SUBSCRIBER</NM103>
+								<NM104>JOHN</NM104>
+								<NM105>J</NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>MI</NM108>
+								<NM109>987321</NM109>
+							</NM1>
+							<N3 segIdx = "84">
+								<N301>987 65TH PL</N301>
+							</N3>
+							<N4 segIdx = "85">
+								<N401>VANCOUVER</N401>
+								<N402>WA</N402>
+								<N403>986640001</N403>
+							</N4>
+							<DMG segIdx = "86">
+								<DMG01>D8</DMG01>
+								<DMG02>19881225</DMG02>
+								<DMG03>M</DMG03>
+							</DMG>
+						</Loop2010BA>
+						<Loop2010BB>
+							<NM1 segIdx = "87">
+								<NM101>PR</NM101>
+								<NM102>2</NM102>
+								<NM103>COMMUNITY HEALTH PLAN OF WASHINGTON</NM103>
+								<NM104></NM104>
+								<NM105></NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>PI</NM108>
+								<NM109>CHPWA</NM109>
+							</NM1>
+						</Loop2010BB>
+					</Loop2010B>
+				</Loop2000B>
+				<Loop2300A>
+					<CLM segIdx = "88">
+						<CLM01>1805080AV3648340</CLM01>
+						<CLM02>11.64</CLM02>
+						<CLM03></CLM03>
+						<CLM04></CLM04>
+						<CLM05>57:B:1</CLM05>
+						<CLM06>Y</CLM06>
+						<CLM07>A</CLM07>
+						<CLM08>Y</CLM08>
+						<CLM09>Y</CLM09>
+					</CLM>
+					<REF segIdx = "89">
+						<REF01>D9</REF01>
+						<REF02>7349065492</REF02>
+					</REF>
+					<HI segIdx = "90">
+						<HI01>ABK:F1020</HI01>
+						<HI02>ABF:F1220</HI02>
+					</HI>
+					<Loop2310A>
+						<Loop2310AA>
+							<NM1 segIdx = "91">
+								<NM101>82</NM101>
+								<NM102>1</NM102>
+								<NM103>PROVIDER</NM103>
+								<NM104>SUSAN</NM104>
+								<NM105></NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>XX</NM108>
+								<NM109>1112223346</NM109>
+							</NM1>
+							<PRV segIdx = "92">
+								<PRV01>PE</PRV01>
+								<PRV02>PXC</PRV02>
+								<PRV03>261QR0405X</PRV03>
+							</PRV>
+						</Loop2310AA>
+						<Loop2310AB>
+							<NM1 segIdx = "93">
+								<NM101>77</NM101>
+								<NM102>2</NM102>
+								<NM103>BH CLINIC OF VANCOUVER</NM103>
+								<NM104></NM104>
+								<NM105></NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>XX</NM108>
+								<NM109>1122334455</NM109>
+							</NM1>
+							<N3 segIdx = "94">
+								<N301>12345 MAIN ST SUITE A1</N301>
+							</N3>
+							<N4 segIdx = "95">
+								<N401>VANCOUVER</N401>
+								<N402>WA</N402>
+								<N403>98662</N403>
+							</N4>
+						</Loop2310AB>
+					</Loop2310A>
+				</Loop2300A>
+				<Loop2400A>
+					<LX segIdx = "96">
+						<LX01>1</LX01>
+					</LX>
+					<SV1 segIdx = "97">
+						<SV101>HC:T1017:HF</SV101>
+						<SV102>11.64</SV102>
+						<SV103>UN</SV103>
+						<SV104>1</SV104>
+						<SV105></SV105>
+						<SV106></SV106>
+						<SV107>1:2</SV107>
+					</SV1>
+					<DTP segIdx = "98">
+						<DTP01>472</DTP01>
+						<DTP02>D8</DTP02>
+						<DTP03>20180427</DTP03>
+					</DTP>
+					<REF segIdx = "99">
+						<REF01>6R</REF01>
+						<REF02>140976</REF02>
+					</REF>
+				</Loop2400A>
+			</Transaction>
+			<Transaction ControlNumber = "212950697" DocType = "837" SegIdx = "100" Version = "005010X222A1">
+				<ST segIdx = "100">
+					<ST01>837</ST01>
+					<ST02>000000004</ST02>
+					<ST03>005010X222A1</ST03>
+				</ST>
+				<BHT segIdx = "101">
+					<BHT01>0019</BHT01>
+					<BHT02>00</BHT02>
+					<BHT03>7349063984</BHT03>
+					<BHT04>20180508</BHT04>
+					<BHT05>0833</BHT05>
+					<BHT06>CH</BHT06>
+				</BHT>
+				<Loop1000A>
+					<NM1 segIdx = "102">
+						<NM101>41</NM101>
+						<NM102>2</NM102>
+						<NM103>CLEARINGHOUSE LLC</NM103>
+						<NM104></NM104>
+						<NM105></NM105>
+						<NM106></NM106>
+						<NM107></NM107>
+						<NM108>46</NM108>
+						<NM109>987654321</NM109>
+					</NM1>
+					<PER segIdx = "103">
+						<PER01>IC</PER01>
+						<PER02>CLEARINGHOUSE CLIENT SERVICES</PER02>
+						<PER03>TE</PER03>
+						<PER04>8005551212</PER04>
+						<PER05>FX</PER05>
+						<PER06>8005551212</PER06>
+					</PER>
+				</Loop1000A>
+				<Loop1000B>
+					<NM1 segIdx = "104">
+						<NM101>40</NM101>
+						<NM102>2</NM102>
+						<NM103>123456789</NM103>
+						<NM104></NM104>
+						<NM105></NM105>
+						<NM106></NM106>
+						<NM107></NM107>
+						<NM108>46</NM108>
+						<NM109>CHPWA</NM109>
+					</NM1>
+				</Loop1000B>
+				<Loop2000A>
+					<HL segIdx = "105">
+						<HL01>75</HL01>
+						<HL02></HL02>
+						<HL03>20</HL03>
+						<HL04>1</HL04>
+					</HL>
+					<Loop2010A>
+						<Loop2010AA>
+							<NM1 segIdx = "106">
+								<NM101>85</NM101>
+								<NM102>2</NM102>
+								<NM103>BH CLINIC OF VANCOUVER</NM103>
+								<NM104></NM104>
+								<NM105></NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>XX</NM108>
+								<NM109>1122334455</NM109>
+							</NM1>
+							<N3 segIdx = "107">
+								<N301>12345 MAIN ST</N301>
+							</N3>
+							<N4 segIdx = "108">
+								<N401>VANCOUVER</N401>
+								<N402>WA</N402>
+								<N403>98662</N403>
+							</N4>
+							<REF segIdx = "109">
+								<REF01>EI</REF01>
+								<REF02>720000000</REF02>
+							</REF>
+							<PER segIdx = "110">
+								<PER01>IC</PER01>
+								<PER02>CONTACT</PER02>
+								<PER03>TE</PER03>
+								<PER04>9185551212</PER04>
+							</PER>
+						</Loop2010AA>
+						<Loop2010AB>
+							<NM1 segIdx = "111">
+								<NM101>87</NM101>
+								<NM102>2</NM102>
+							</NM1>
+							<N3 segIdx = "112">
+								<N301>PO BOX 1234</N301>
+							</N3>
+							<N4 segIdx = "113">
+								<N401>VANCOUVER</N401>
+								<N402>WA</N402>
+								<N403>986681234</N403>
+							</N4>
+						</Loop2010AB>
+					</Loop2010A>
+				</Loop2000A>
+				<Loop2000B>
+					<HL segIdx = "114">
+						<HL01>76</HL01>
+						<HL02>75</HL02>
+						<HL03>22</HL03>
+						<HL04>0</HL04>
+					</HL>
+					<SBR segIdx = "115">
+						<SBR01>P</SBR01>
+						<SBR02>18</SBR02>
+						<SBR03></SBR03>
+						<SBR04>COMMUNITY HLTH PLAN OF WASH</SBR04>
+						<SBR05></SBR05>
+						<SBR06></SBR06>
+						<SBR07></SBR07>
+						<SBR08></SBR08>
+						<SBR09>CI</SBR09>
+					</SBR>
+					<Loop2010B>
+						<Loop2010BA>
+							<NM1 segIdx = "116">
+								<NM101>IL</NM101>
+								<NM102>1</NM102>
+								<NM103>PATIENT</NM103>
+								<NM104>SUSAN</NM104>
+								<NM105>E</NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>MI</NM108>
+								<NM109>765123</NM109>
+							</NM1>
+							<N3 segIdx = "117">
+								<N301>765 43RD ST</N301>
+							</N3>
+							<N4 segIdx = "118">
+								<N401>VANCOUVER</N401>
+								<N402>WA</N402>
+								<N403>986640002</N403>
+							</N4>
+							<DMG segIdx = "119">
+								<DMG01>D8</DMG01>
+								<DMG02>19881031</DMG02>
+								<DMG03>F</DMG03>
+							</DMG>
+						</Loop2010BA>
+						<Loop2010BB>
+							<NM1 segIdx = "120">
+								<NM101>PR</NM101>
+								<NM102>2</NM102>
+								<NM103>COMMUNITY HEALTH PLAN OF WASHINGTON</NM103>
+								<NM104></NM104>
+								<NM105></NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>PI</NM108>
+								<NM109>CHPWA</NM109>
+							</NM1>
+						</Loop2010BB>
+					</Loop2010B>
+				</Loop2000B>
+				<Loop2300A>
+					<CLM segIdx = "121">
+						<CLM01>1805080AV3648353</CLM01>
+						<CLM02>234</CLM02>
+						<CLM03></CLM03>
+						<CLM04></CLM04>
+						<CLM05>53:B:1</CLM05>
+						<CLM06>Y</CLM06>
+						<CLM07>A</CLM07>
+						<CLM08>Y</CLM08>
+						<CLM09>Y</CLM09>
+					</CLM>
+					<REF segIdx = "122">
+						<REF01>D9</REF01>
+						<REF02>7349064290</REF02>
+					</REF>
+					<HI segIdx = "123">
+						<HI01>ABK:F251</HI01>
+					</HI>
+					<Loop2310A>
+						<Loop2310AA>
+							<NM1 segIdx = "124">
+								<NM101>82</NM101>
+								<NM102>1</NM102>
+								<NM103>PROVIDER</NM103>
+								<NM104>SUSAN</NM104>
+								<NM105></NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>XX</NM108>
+								<NM109>1112223346</NM109>
+							</NM1>
+							<PRV segIdx = "125">
+								<PRV01>PE</PRV01>
+								<PRV02>PXC</PRV02>
+								<PRV03>251S00000X</PRV03>
+							</PRV>
+						</Loop2310AA>
+						<Loop2310AB>
+							<NM1 segIdx = "126">
+								<NM101>77</NM101>
+								<NM102>2</NM102>
+								<NM103>BH CLINIC OF VANCOUVER</NM103>
+								<NM104></NM104>
+								<NM105></NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>XX</NM108>
+								<NM109>1122334455</NM109>
+							</NM1>
+							<N3 segIdx = "127">
+								<N301>12345 MAIN ST SUITE A1</N301>
+							</N3>
+							<N4 segIdx = "128">
+								<N401>VANCOUVER</N401>
+								<N402>WA</N402>
+								<N403>98662</N403>
+							</N4>
+						</Loop2310AB>
+					</Loop2310A>
+				</Loop2300A>
+				<Loop2400A>
+					<LX segIdx = "129">
+						<LX01>1</LX01>
+					</LX>
+					<SV1 segIdx = "130">
+						<SV101>HC:90853</SV101>
+						<SV102>234</SV102>
+						<SV103>UN</SV103>
+						<SV104>120</SV104>
+						<SV105></SV105>
+						<SV106></SV106>
+						<SV107>1</SV107>
+					</SV1>
+					<DTP segIdx = "131">
+						<DTP01>472</DTP01>
+						<DTP02>D8</DTP02>
+						<DTP03>20180427</DTP03>
+					</DTP>
+					<REF segIdx = "132">
+						<REF01>6R</REF01>
+						<REF02>140787</REF02>
+					</REF>
+					<NTE segIdx = "133">
+						<NTE01>ADD</NTE01>
+						<NTE02>05</NTE02>
+					</NTE>
+				</Loop2400A>
+			</Transaction>
+			<Transaction ControlNumber = "212950697" DocType = "837" SegIdx = "134" Version = "005010X222A1">
+				<ST segIdx = "134">
+					<ST01>837</ST01>
+					<ST02>000000005</ST02>
+					<ST03>005010X222A1</ST03>
+				</ST>
+				<BHT segIdx = "135">
+					<BHT01>0019</BHT01>
+					<BHT02>00</BHT02>
+					<BHT03>7349063984</BHT03>
+					<BHT04>20180508</BHT04>
+					<BHT05>0833</BHT05>
+					<BHT06>CH</BHT06>
+				</BHT>
+				<Loop1000A>
+					<NM1 segIdx = "136">
+						<NM101>41</NM101>
+						<NM102>2</NM102>
+						<NM103>CLEARINGHOUSE LLC</NM103>
+						<NM104></NM104>
+						<NM105></NM105>
+						<NM106></NM106>
+						<NM107></NM107>
+						<NM108>46</NM108>
+						<NM109>987654321</NM109>
+					</NM1>
+					<PER segIdx = "137">
+						<PER01>IC</PER01>
+						<PER02>CLEARINGHOUSE CLIENT SERVICES</PER02>
+						<PER03>TE</PER03>
+						<PER04>8005551212</PER04>
+						<PER05>FX</PER05>
+						<PER06>8005551212</PER06>
+					</PER>
+				</Loop1000A>
+				<Loop1000B>
+					<NM1 segIdx = "138">
+						<NM101>40</NM101>
+						<NM102>2</NM102>
+						<NM103>123456789</NM103>
+						<NM104></NM104>
+						<NM105></NM105>
+						<NM106></NM106>
+						<NM107></NM107>
+						<NM108>46</NM108>
+						<NM109>CHPWA</NM109>
+					</NM1>
+				</Loop1000B>
+				<Loop2000A>
+					<HL segIdx = "139">
+						<HL01>79</HL01>
+						<HL02></HL02>
+						<HL03>20</HL03>
+						<HL04>1</HL04>
+					</HL>
+					<Loop2010A>
+						<Loop2010AA>
+							<NM1 segIdx = "140">
+								<NM101>85</NM101>
+								<NM102>2</NM102>
+								<NM103>BH CLINIC OF VANCOUVER</NM103>
+								<NM104></NM104>
+								<NM105></NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>XX</NM108>
+								<NM109>1122334455</NM109>
+							</NM1>
+							<N3 segIdx = "141">
+								<N301>12345 MAIN ST</N301>
+							</N3>
+							<N4 segIdx = "142">
+								<N401>VANCOUVER</N401>
+								<N402>WA</N402>
+								<N403>98662</N403>
+							</N4>
+							<REF segIdx = "143">
+								<REF01>EI</REF01>
+								<REF02>720000000</REF02>
+							</REF>
+							<PER segIdx = "144">
+								<PER01>IC</PER01>
+								<PER02>CONTACT</PER02>
+								<PER03>TE</PER03>
+								<PER04>9185551212</PER04>
+							</PER>
+						</Loop2010AA>
+						<Loop2010AB>
+							<NM1 segIdx = "145">
+								<NM101>87</NM101>
+								<NM102>2</NM102>
+							</NM1>
+							<N3 segIdx = "146">
+								<N301>PO BOX 1234</N301>
+							</N3>
+							<N4 segIdx = "147">
+								<N401>VANCOUVER</N401>
+								<N402>WA</N402>
+								<N403>986681234</N403>
+							</N4>
+						</Loop2010AB>
+					</Loop2010A>
+				</Loop2000A>
+				<Loop2000B>
+					<HL segIdx = "148">
+						<HL01>80</HL01>
+						<HL02>79</HL02>
+						<HL03>22</HL03>
+						<HL04>0</HL04>
+					</HL>
+					<SBR segIdx = "149">
+						<SBR01>P</SBR01>
+						<SBR02>18</SBR02>
+						<SBR03></SBR03>
+						<SBR04>COMMUNITY HLTH PLAN OF WASH</SBR04>
+						<SBR05></SBR05>
+						<SBR06></SBR06>
+						<SBR07></SBR07>
+						<SBR08></SBR08>
+						<SBR09>CI</SBR09>
+					</SBR>
+					<Loop2010B>
+						<Loop2010BA>
+							<NM1 segIdx = "150">
+								<NM101>IL</NM101>
+								<NM102>1</NM102>
+								<NM103>SUBSCRIBER</NM103>
+								<NM104>JOHN</NM104>
+								<NM105>J</NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>MI</NM108>
+								<NM109>987321</NM109>
+							</NM1>
+							<N3 segIdx = "151">
+								<N301>987 65TH PL</N301>
+							</N3>
+							<N4 segIdx = "152">
+								<N401>VANCOUVER</N401>
+								<N402>WA</N402>
+								<N403>986640001</N403>
+							</N4>
+							<DMG segIdx = "153">
+								<DMG01>D8</DMG01>
+								<DMG02>19881225</DMG02>
+								<DMG03>M</DMG03>
+							</DMG>
+						</Loop2010BA>
+						<Loop2010BB>
+							<NM1 segIdx = "154">
+								<NM101>PR</NM101>
+								<NM102>2</NM102>
+								<NM103>COMMUNITY HEALTH PLAN OF WASHINGTON</NM103>
+								<NM104></NM104>
+								<NM105></NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>PI</NM108>
+								<NM109>CHPWA</NM109>
+							</NM1>
+						</Loop2010BB>
+					</Loop2010B>
+				</Loop2000B>
+				<Loop2300A>
+					<CLM segIdx = "155">
+						<CLM01>1805080AV3648355</CLM01>
+						<CLM02>20</CLM02>
+						<CLM03></CLM03>
+						<CLM04></CLM04>
+						<CLM05>57:B:1</CLM05>
+						<CLM06>Y</CLM06>
+						<CLM07>A</CLM07>
+						<CLM08>Y</CLM08>
+						<CLM09>Y</CLM09>
+					</CLM>
+					<REF segIdx = "156">
+						<REF01>D9</REF01>
+						<REF02>7349064036</REF02>
+					</REF>
+					<HI segIdx = "157">
+						<HI01>ABK:F1020</HI01>
+						<HI02>ABF:F1120</HI02>
+					</HI>
+					<Loop2310A>
+						<Loop2310AA>
+							<NM1 segIdx = "158">
+								<NM101>82</NM101>
+								<NM102>1</NM102>
+								<NM103>PROVIDER</NM103>
+								<NM104>JAMES</NM104>
+								<NM105></NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>XX</NM108>
+								<NM109>1112223338</NM109>
+							</NM1>
+							<PRV segIdx = "159">
+								<PRV01>PE</PRV01>
+								<PRV02>PXC</PRV02>
+								<PRV03>261QR0405X</PRV03>
+							</PRV>
+						</Loop2310AA>
+						<Loop2310AB>
+							<NM1 segIdx = "160">
+								<NM101>77</NM101>
+								<NM102>2</NM102>
+								<NM103>BH CLINIC OF VANCOUVER</NM103>
+								<NM104></NM104>
+								<NM105></NM105>
+								<NM106></NM106>
+								<NM107></NM107>
+								<NM108>XX</NM108>
+								<NM109>1122334455</NM109>
+							</NM1>
+							<N3 segIdx = "161">
+								<N301>12345 MAIN ST SUITE A1</N301>
+							</N3>
+							<N4 segIdx = "162">
+								<N401>VANCOUVER</N401>
+								<N402>WA</N402>
+								<N403>98662</N403>
+							</N4>
+						</Loop2310AB>
+					</Loop2310A>
+				</Loop2300A>
+				<Loop2400A>
+					<LX segIdx = "163">
+						<LX01>1</LX01>
+					</LX>
+					<SV1 segIdx = "164">
+						<SV101>HC:H0003</SV101>
+						<SV102>20</SV102>
+						<SV103>UN</SV103>
+						<SV104>1</SV104>
+						<SV105></SV105>
+						<SV106></SV106>
+						<SV107>1:2</SV107>
+					</SV1>
+					<DTP segIdx = "165">
+						<DTP01>472</DTP01>
+						<DTP02>D8</DTP02>
+						<DTP03>20180427</DTP03>
+					</DTP>
+					<REF segIdx = "166">
+						<REF01>6R</REF01>
+						<REF02>143907</REF02>
+					</REF>
+				</Loop2400A>
+			</Transaction>
+		</Group>
+	</Interchange>
+</ConnorData>
